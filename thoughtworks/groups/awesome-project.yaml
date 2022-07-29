@@ -6,3 +6,14 @@ metadata:
 spec:
   type: team
   children: []
+  
+  ---
+  
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Platform Engineering Team
+  description: Platform Engineering Team
+spec:
+  type: team
+  children: [awesome-project]
